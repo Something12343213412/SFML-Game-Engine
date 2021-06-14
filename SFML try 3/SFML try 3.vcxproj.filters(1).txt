@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\GameObject">
+      <UniqueIdentifier>{d5560635-cf20-431a-8062-4f9974b92e61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObject\GameObjectHandler">
+      <UniqueIdentifier>{0cd7f9f7-058c-4032-99d9-a833db6b9f1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files\GameObject\BasicFormsOfShapes">
+      <UniqueIdentifier>{7c7c356d-a781-48aa-abe8-b2cc2bac6f95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObject\BasicFormsOfShapes\Circle">
+      <UniqueIdentifier>{287e4633-27bb-41e8-8bc3-dd387deaf6e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObject\BasicFormsOfShapes\Circle\Basic Circle">
+      <UniqueIdentifier>{8fb7eb72-b12e-40bf-9bc6-33ac1dcea289}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObject\BasicFormsOfShapes\Circle\Active Circle">
+      <UniqueIdentifier>{062a27d8-73d4-4731-b7a0-83c6959a199c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObject\BasicFormsOfShapes\GameObjectBaseClass">
+      <UniqueIdentifier>{e5500168-24b0-4aeb-ae63-f60738b53acc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObject\BasicFormsOfShapes\Rect">
+      <UniqueIdentifier>{ea0173a1-1fb5-4c97-9bff-cbf8862874bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Keybord">
+      <UniqueIdentifier>{80b18839-1941-4467-8c8d-806a79882c3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObject\BasicFormsOfShapes\Rect\StaticRects">
+      <UniqueIdentifier>{6c2810bf-8b6f-4530-a9be-9f96d4af3f17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObject\BasicFormsOfShapes\Rect\StaticRects\Active Rect">
+      <UniqueIdentifier>{43cb70f8-475e-4fa1-bd51-e7766b294053}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObject\BasicFormsOfShapes\Rect\StaticRects\Base Rect">
+      <UniqueIdentifier>{fb8f0910-d47d-451b-bb3d-50681f58c217}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObject\Complicated Shapes">
+      <UniqueIdentifier>{9c72b652-942e-4bac-8a26-064d20101385}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObject\Complicated Shapes\RectKeybord">
+      <UniqueIdentifier>{0fc69369-c91d-4726-bd3b-ba6315da33a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObject\Complicated Shapes\RectEffectedByGravity">
+      <UniqueIdentifier>{1b222e3e-124f-4bba-b7cd-4288bb290949}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObject\Complicated Shapes\RectWithCollisions">
+      <UniqueIdentifier>{006373a0-503b-47e2-adf0-9f180404bb5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObject\Complicated Shapes\CircleWithCollisions">
+      <UniqueIdentifier>{4c1d8ef0-5f95-4463-aa19-48475755b54d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Structs.h">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Header Files\GameObject\BasicFormsOfShapes\GameObjectBaseClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Rect.cpp">
+      <Filter>Header Files\GameObject\BasicFormsOfShapes\Rect\StaticRects\Base Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle.cpp">
+      <Filter>Header Files\GameObject\BasicFormsOfShapes\Circle\Basic Circle</Filter>
+    </ClCompile>
+    <ClCompile Include="ActiveCircle.cpp">
+      <Filter>Header Files\GameObject\BasicFormsOfShapes\Circle\Active Circle</Filter>
+    </ClCompile>
+    <ClCompile Include="ActiveRect.cpp">
+      <Filter>Header Files\GameObject\BasicFormsOfShapes\Rect\StaticRects\Active Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Keybord.cpp">
+      <Filter>Header Files\Keybord</Filter>
+    </ClCompile>
+    <ClCompile Include="RectKeybord.cpp">
+      <Filter>Header Files\GameObject\Complicated Shapes\RectKeybord</Filter>
+    </ClCompile>
+    <ClCompile Include="RectEffectedByGravity.cpp">
+      <Filter>Header Files\GameObject\Complicated Shapes\RectEffectedByGravity</Filter>
+    </ClCompile>
+    <ClCompile Include="RectWithCollisions.cpp">
+      <Filter>Header Files\GameObject\Complicated Shapes\RectWithCollisions</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleWithCollision.cpp">
+      <Filter>Header Files\GameObject\Complicated Shapes\CircleWithCollisions</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files\GameObject\BasicFormsOfShapes\GameObjectBaseClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Rect.h">
+      <Filter>Header Files\GameObject\BasicFormsOfShapes\Rect\StaticRects\Base Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObj_handler.h">
+      <Filter>Header Files\GameObject\GameObjectHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle.h">
+      <Filter>Header Files\GameObject\BasicFormsOfShapes\Circle\Basic Circle</Filter>
+    </ClInclude>
+    <ClInclude Include="ActiveCircle.h">
+      <Filter>Header Files\GameObject\BasicFormsOfShapes\Circle\Active Circle</Filter>
+    </ClInclude>
+    <ClInclude Include="ActiveRect.h">
+      <Filter>Header Files\GameObject\BasicFormsOfShapes\Rect\StaticRects\Active Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="Keybord.h">
+      <Filter>Header Files\Keybord</Filter>
+    </ClInclude>
+    <ClInclude Include="RectKeybord.h">
+      <Filter>Header Files\GameObject\Complicated Shapes\RectKeybord</Filter>
+    </ClInclude>
+    <ClInclude Include="RectEffectedByGravity.h">
+      <Filter>Header Files\GameObject\Complicated Shapes\RectEffectedByGravity</Filter>
+    </ClInclude>
+    <ClInclude Include="RectWithCollisions.h">
+      <Filter>Header Files\GameObject\Complicated Shapes\RectWithCollisions</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleWithCollision.h">
+      <Filter>Header Files\GameObject\Complicated Shapes\CircleWithCollisions</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
